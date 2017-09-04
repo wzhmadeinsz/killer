@@ -1,0 +1,298 @@
+.contain{
+	width: 600px;
+	height: 820px;
+	background: #f0f0f0;
+}
+*{
+	margin: auto;
+	text-align: center;
+	font-size: 34px;
+}
+.header{
+	width: 600px;
+	height: 50px;
+	background: #29bde0;
+	position: relative;
+}
+.menu{
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	width: 60px;
+	position: absolute;
+	color: white;
+	left: 20px;
+
+}
+.lastgame{
+	width: 550px;
+	height: 60px;
+	margin: 15px auto;
+	background: white;
+	line-height: 60px;
+	font-size: 40px;
+}
+.gamechoice{
+	width:550px;
+	height: 650px;
+	position: relative;
+	background: white;
+	font-size: 30px;
+}
+.gamechoice-name{
+	color: orange;
+	border-bottom: orange 2px solid;
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+}
+.gamechoice-changeleft{
+	border-right: 20px orange solid;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	left: 8px;
+	top: 295px;
+}
+.gamechoice-changeright{
+	border-left: 20px orange solid;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	right: 8px;
+	top: 295px;
+}
+.gamechoice-introduce{
+	width: 480px;
+	height: 475px;
+}
+.gamechoice-introduce1{
+	width: 450px;
+	height: 100px;
+	line-height: 100px;
+	background: #29bde0;
+	color:white;
+	margin: 40px auto;
+	margin-bottom: 60px;
+}
+.gamechoice-introduce1::before{
+
+}
+.gamechoice-introduce2{
+	width: 450px;
+	height: 100px;
+	background: #29bde0;
+	color:white;
+	line-height: 100px;
+	margin: 40px auto;
+	margin-bottom: 60px;
+}
+.gamechoice-introduce2::before{
+	
+}
+.gamechoice-introduce3{
+	width: 450px;
+	height: 100px;
+	background: #29bde0;
+	color:white;
+	line-height: 100px;
+	margin: 40px auto;
+	margin-bottom: 60px;
+	}
+.gamechoice-introduce3::before{
+	
+}
+.gameturn{
+	width: 53px;
+	height: 20px;
+	position: relative;
+	margin: 20px auto;
+}
+.gameturn-point{
+	background: #f0f0f0;
+	width: 8px;
+	height: 8px;
+	border: 1px solid red;
+	margin: 5px auto;
+	margin-left: 3px;
+	border-radius: 50%;
+	float: left;
+}
+
+
+.playing{
+	width: 600px;
+	height: 820px;
+	background: #f0f0f0;
+	display:"none";
+}
+.playing-header{
+	width: 600px;
+	height: 50px;
+	background: blue;
+}
+.playing-header_back{
+	text-align: left;
+	padding-left: 20px;
+	color: white;
+	height: 40px;
+	line-height: 50px;
+	display: block;
+}
+.playing-people{
+	width: 560px;
+	height: 50px;
+	margin-top: 15px;
+	background: white;
+}
+.playing-people_display{
+	width: 560px;
+	height: 100px;
+	line-height: 100px;
+	margin-top: 15px;
+	background: white;
+	font-size: 20px;
+}
+.playing-people_display>img{
+	height: 90px;
+}
+.playing-people_displaydetail{
+	height: 400px;
+    margin: 15px;
+    background: white;
+    overflow: auto;
+}
+.idensend{
+	width: 600px;
+	height: 820px;
+	background: #29bde0;
+	color: white;
+	display:'none';
+}
+.idensend_header{
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	border-bottom: 1px #f0f0f0 solid;
+	font-size: 40px;
+}
+.idensend_header-back{
+	line-height: 50px;
+	position: absolute;
+	left: 20px;
+}
+.idensend_header-end{
+	line-height: 50px;
+	position: absolute;
+	right: 20px;
+}
+.idensend_display{
+	width: 450px;
+	margin-top: 50px;
+	height: 450px;
+	background: url(fanpai.png) #fdf0cc no-repeat center center;
+	text-align: center;
+	line-height: 820px;
+	color: #29bde0;
+}
+.idensend_deliver{
+	width: 480px;
+	height: 70px;
+	background: orange;
+	margin-top: 100px;
+	color: white;
+}
+.playing-people_input{
+	margin-top: 15px;
+	width: 560px;
+	height: 45px;
+	background: white; 
+	text-align: center;
+}
+.playing-people_input>span{
+	color: orange;
+	font-size: 25px;
+	line-height: 45px;
+}
+#peoplenum{
+	width: 50px;
+	line-height: 40px;
+	height: 40px;
+}
+.playing-send{
+	height: 80px;
+	line-height: 80px;
+	background: orange;
+	color: white;
+	width: 540px;
+	margin: 15px auto;
+	border-radius: 2%;
+}
+.dayhuodong{
+	
+}
+#dayofdetail{
+	width: 400px;
+	height: 40px;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	background: #FFFF99;
+}
+#intonight{
+	width: 400px;
+	height: 40px;
+	font-size: 36px;
+	line-height: 40px;
+	text-align: center;
+	background: #404040;
+	color: white;
+}
+#checkplayermessage{
+	width: 400px;
+	height: 40px;
+	font-size: 36px;
+	line-height: 40px;
+	text-align: center;
+	background: #FFFF99;
+}
+.xingdong{
+	width: 400px;
+	height: 60px;
+	margin: 20px auto;
+	background: #E0E0E0;
+	line-height: 60px;
+}
+.killman{
+	display: none
+}
+.killman-title{
+	text-align: center;
+	width: 300px;
+	margin: 20px auto;
+	height: 60px;
+	color: red;
+	display: block;
+}
+.killnum{
+	width: 60px;
+	height: 40px;
+	font-size: 30px;
+	margin: 50px 260px 100px 260px ;
+	display: block;
+}
+.killman-check{
+	height: 80px;
+	line-height: 80px;
+	width: 400px;
+	text-align: center;
+	font-size: 80px;
+	color: red;
+	background: black;
+	margin: 20px auto;
+	display: block;
+}
+.find{
+	display: none;
+}
