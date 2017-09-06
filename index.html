@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>杀人游戏</title>
+	<link rel="stylesheet" href="killer.css">
+</head>
+<body>
+	<!-- //选择页面 -->
+	<div class="contain">
+		<header class="header">
+			<div class="menu">菜单</div>
+		</header>
+		<div class="lastgame">上次游戏：</div>
+		<div class="gamechoice">
+			<div class="gamechoice-name">杀人游戏(先输入人数才可投票入夜杀人)</div>
+			<div class="gamechoice-changeleft"></div>
+			<div class="gamechoice-introduce">
+				<div class="gamechoice-introduce1">简化版</div>
+				<div class="gamechoice-introduce2">猜词版</div>
+				<div class="gamechoice-introduce3">白痴版</div>
+			</div>
+			<div class="gamechoice-changeright"></div>
+			<div class="gameturn">
+				<div class="gameturn-point"></div>
+				<div class="gameturn-point"></div>
+				<div class="gameturn-point"></div>
+				<div class="gameturn-point"></div>
+			</div>
+		</div>
+	</div>
+	<div class="killman"><!-- 杀人页面 -->
+				<span class="killman-title">请问你想制裁几号</span>
+				<input type="text" class="killnum" id="killnum">
+				<span class="killman-check">制裁</span>
+	</div>
+	<div class="find">
+			<span class="killman-title">请问你想查谁身份</span>
+			<input type="text" class="killnum" id="checknum">
+			<span class="killman-check">决定！</span>
+	</div>
+	<!-- 输入人数页面 -->
+	<div class="playing">
+		<header class="playing-header"><span class="playing-header_back">返回</span></header>
+		<div class="playing-people">玩家配比</div>
+		<div class="playing-people_display"><img src="langren.jpg">狼人<span id="killernum">2</span>名<img src="cunmin.jpg">村民<span id="cunminnum">2</span>名</div>
+		<div class="playing-people_displaydetail">
+			<!-- <div class="dayhuodong">
+				<span id="dayofdetail">第一天</span>
+				<div class="xingdong">说遗言</div>
+				<div class="xingdong">轮发言</div>
+				<div class="xingdong" id="toupiao">投票(click)</div>
+	*			<div id="intonight">入夜(click)</div>
+	*			<div id="checkplayermessage">查身份(click)</div>
+			</div> -->
+		</div>
+		
+
+		<div class="playing-people_input">
+			<span id="playing-people_dis">玩家数量:4</span>
+			<button id="peoplenumadd">+</button>
+			<input type="range" max=18 value="4" min=4 id="peoplenum">
+			<button id="peoplenumred">-</button>
+		</div>
+		<div class="playing-send" id="playing-send">去发牌</div>
+	</div>
+	<div class="idensend" id="idensend">
+		<div class="idensend_header">
+			<span class="idensend_header-back" id="idensend_header-back"><</span>
+					查看身份
+			<span class="idensend_header-end" id="idensend_header-end">X</span>
+		</div>
+		<div class="idensend_display" id="idensend_display"></div>
+		<button class="idensend_deliver" id="idensend_deliver">查看1号身份</button>
+	</div>
+	<div class="judgebook">
+		<div class="judge_header">
+			<span class="idensend_header-back" id="idensend_header-back"><</span>
+					法官台本
+			<span class="idensend_header-end" id="idensend_header-end">X</span>
+		</div>
+		<div class="judge_day">第 1 天</div>
+		<div class="judgeactionbox">
+			<div class="judge_action" id="judge_action-kill">杀手杀人</div>
+			<div class="judge_action">亡灵发表遗言</div>
+			<div class="judge_action">玩家依次发言</div>
+			<div class="judge_action" id="judge_action-vote">全民投票</div>
+			<!-- <div class="judge_action-detail"></div> -->
+		</div>
+		<div class="judge_detailedis"></div>
+		<div class="judge_footer">
+			<span class="judgeend">结束游戏</span>
+			<span class="judge_diary">法官日志</span>
+		</div>
+	</div>
+	<div class="result">
+		<div class="result_header">
+			<div class="result_header-home"></div>
+			游戏结果
+		</div>
+		<div class="result_box">
+			<div class="result_box-rest"></div>
+			<div class="result_box-detaildis"></div>
+		</div>
+		<div class="result_footer">
+			<span class="result_footer-again">再玩一遍</span>
+		</div>
+	</div>
+	<script type="text/javascript" src="killer.js">	</script>
+</body>
+</html>
